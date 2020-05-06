@@ -2,7 +2,7 @@
 
 # Author: Manik Rana
 
-# Version: 1.0
+# Version: 1.1
 
 # Dependencies: none
 
