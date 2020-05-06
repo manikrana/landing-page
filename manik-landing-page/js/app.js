@@ -63,7 +63,7 @@ for (let i = 0; i < sectionsList.length; i++) {
   //Set the text of the anchor element by fetching it from the data-nav property of sections
   anchorElement.innerHTML = sectionsList[i].getAttribute("data-nav");
   //Set the attribute of the anchor element so that it points to the corresponding section of the page
-  anchorElement.setAttribute("href", "/#" + sectionsList[i].id);
+  anchorElement.setAttribute("href", "#" + sectionsList[i].id);
   //Make anchor element a child of the li element
   menuOption.appendChild(anchorElement);
   menuOption.classList.add("menu__link");
